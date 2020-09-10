@@ -35,13 +35,23 @@ body * {
     z-index: 1;
 }
 
+.year {
+    font-size: 200px;
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+    bottom: -30px;
+    right: 50%;
+}
+
 h1 {
     font-size: 50px;
     margin: -170px 0 40px;
 }
 
 .countdown {
-    display: flex;
+    /* display: flex; */
+    display: none;
     transform: scale(2);
 }
 
